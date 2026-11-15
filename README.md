@@ -26,11 +26,11 @@ _No D-Mail has reached this worldline yet. Be the first to change the past._
 
 ## 🔬 未来ガジェット研究所 · Future Gadget Lab
 
-| No. | Gadget | Spec |
-| :---: | --- | --- |
-| 01 | [**Cursor Board**](https://github.com/AmadeusOfficial/cursor-board) | Pin a task card and Cursor Agents carry it through code, tests, commit and deploy. An AI dev pipeline on a kanban board. |
-| 02 | [**Excel Process**](https://github.com/AmadeusOfficial/excel-process) | Excel processing for accounting professionals. Spreadsheets in, sanity out. |
-| 03 | [**Amadeus Blog**](https://github.com/AmadeusOfficial/amadeus-blog) | Lab notes from this worldline. Still under construction. |
+<p align="center">
+  <a href="https://github.com/AmadeusOfficial/cursor-board"><img src="./assets/gadgets/01-cursor-board.svg" alt="Future Gadget No.01 · Cursor Board" width="100%"></a>
+  <a href="https://github.com/AmadeusOfficial/excel-process"><img src="./assets/gadgets/02-excel-process.svg" alt="Future Gadget No.02 · Excel Process" width="100%"></a>
+  <a href="https://github.com/AmadeusOfficial/amadeus-blog"><img src="./assets/gadgets/03-amadeus-blog.svg" alt="Future Gadget No.03 · Amadeus Blog" width="100%"></a>
+</p>
 
 <div align="center">
 

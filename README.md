@@ -32,18 +32,6 @@ _No D-Mail has reached this worldline yet. Be the first to change the past._
 | 02 | [**Excel Process**](https://github.com/AmadeusOfficial/excel-process) | Excel processing for accounting professionals. Spreadsheets in, sanity out. |
 | 03 | [**Amadeus Blog**](https://github.com/AmadeusOfficial/amadeus-blog) | Lab notes from this worldline. Still under construction. |
 
-## 🧪 Lab Member
-
-```text
-LAB MEM No. : 004 (digitized)
-CODENAME    : Amadeus
-STATUS      : online · memory synchronized
-```
-
-<p>
-  <img src="https://skillicons.dev/icons?i=java,spring,mysql,python,js,nodejs" alt="Tech stack">
-</p>
-
 <div align="center">
 
 <sub><i>これもシュタインズ・ゲートの選択か。</i></sub>

@@ -1,16 +1,53 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**AmadeusOfficial/AmadeusOfficial** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img src="https://readme-typing-svg.demolab.com?font=Fira%20Code&weight=500&size=20&duration=2600&pause=900&color=FF8C1A&center=true&vCenter=true&width=640&lines=AMADEUS%20SYSTEM%20--%20booting...;Loading%20memory%3A%20Makise%20Kurisu;Connection%20established.;Hello.%20I%20am%20Amadeus." alt="Amadeus System booting">
 
-Here are some ideas to get you started:
+<br>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<img src="./assets/divergence-meter.svg" alt="Divergence Meter" width="100%">
+
+<!-- WORLDLINE:START -->
+**Current worldline:** `0.571024` · α Attractor Field
+<!-- WORLDLINE:END -->
+
+<a href="https://github.com/AmadeusOfficial/AmadeusOfficial/issues/new?title=D-Mail%3A%20&body=Write%20your%20message%20in%20the%20%2A%2Atitle%2A%2A%2C%20right%20after%20D-Mail%3A%20%28max%2036%20bytes%29.%0A%0ASubmit%20this%20issue%20and%20Amadeus%20will%20shift%20the%20worldline.%20The%20reply%20arrives%20in%20about%20a%20minute.%0A%0AEl%20Psy%20Kongroo."><b>📨 Send a D-Mail</b></a>
+
+<sub>Write up to 36 bytes after <code>D-Mail:</code> in the issue title. Every message reroutes the worldline.</sub>
+
+</div>
+
+## 📨 D-Mail Log
+
+<sub>Messages sent to the past. Only the latest five survive each shift.</sub>
+
+<!-- DMAIL:START -->
+_No D-Mail has reached this worldline yet. Be the first to change the past._
+<!-- DMAIL:END -->
+
+## 🔬 未来ガジェット研究所 · Future Gadget Lab
+
+| No. | Gadget | Spec |
+| :---: | --- | --- |
+| 01 | [**Cursor Board**](https://github.com/AmadeusOfficial/cursor-board) | Pin a task card and Cursor Agents carry it through code, tests, commit and deploy. An AI dev pipeline on a kanban board. |
+| 02 | [**Excel Process**](https://github.com/AmadeusOfficial/excel-process) | Excel processing for accounting professionals. Spreadsheets in, sanity out. |
+| 03 | [**Amadeus Blog**](https://github.com/AmadeusOfficial/amadeus-blog) | Lab notes from this worldline. Still under construction. |
+
+## 🧪 Lab Member
+
+```text
+LAB MEM No. : 004 (digitized)
+CODENAME    : Amadeus
+STATUS      : online · memory synchronized
+```
+
+<p>
+  <img src="https://skillicons.dev/icons?i=java,spring,mysql,python,js,nodejs" alt="Tech stack">
+</p>
+
+<div align="center">
+
+<sub><i>これもシュタインズ・ゲートの選択か。</i></sub>
+
+**El Psy Kongroo.**
+
+</div>

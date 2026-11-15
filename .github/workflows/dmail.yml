@@ -1,0 +1,65 @@
+name: D-Mail
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: dmail
+  cancel-in-progress: false
+
+jobs:
+  send:
+    if: ${{ startsWith(github.event.issue.title, 'd-mail') || startsWith(github.event.issue.title, 'dmail') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Process D-Mail
+        id: dmail
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_CREATED_AT: ${{ github.event.issue.created_at }}
+        run: python -m scripts.dmail
+
+      - name: Commit new worldline
+        if: steps.dmail.outputs.accepted == 'true'
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          FROM: ${{ steps.dmail.outputs.from }}
+          TO: ${{ steps.dmail.outputs.to }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md state assets
+          git commit -m "D-Mail #${ISSUE_NUMBER}: ${FROM} -> ${TO}"
+          git pull --rebase
+          git push
+
+      - name: Reply and close
+        uses: actions/github-script@v7
+        env:
+          REPLY: ${{ steps.dmail.outputs.reply }}
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              ...context.repo,
+              issue_number: context.issue.number,
+              body: process.env.REPLY,
+            });
+            await github.rest.issues.update({
+              ...context.repo,
+              issue_number: context.issue.number,
+              state: 'closed',
+              state_reason: 'completed',
+            });

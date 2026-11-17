@@ -15,6 +15,12 @@ LANGUAGE_COLORS = {
 
 GADGETS = [
     {
+        "slug": "mortis",
+        "name": "Mortis",
+        "desc": "智能体协助的元数据刮削管理器。",
+        "language": "Python",
+    },
+    {
         "slug": "cursor-board",
         "name": "Cursor Board",
         "desc": "AI 研发流水线看板：贴一张任务卡，开发、测试、提交、部署自动跑完。",
@@ -25,12 +31,6 @@ GADGETS = [
         "name": "Excel Process",
         "desc": "面向财务人员的 Excel 批量处理工具。",
         "language": "Python",
-    },
-    {
-        "slug": "amadeus-blog",
-        "name": "Amadeus Blog",
-        "desc": "个人博客，记录这条世界线上的实验笔记。建设中。",
-        "language": "CSS",
     },
 ]
 

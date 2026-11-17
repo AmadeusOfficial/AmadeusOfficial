@@ -27,9 +27,9 @@ _No D-Mail has reached this worldline yet. Be the first to change the past._
 ## 🔬 未来ガジェット研究所 · Future Gadget Lab
 
 <p align="center">
-  <a href="https://github.com/AmadeusOfficial/cursor-board"><img src="./assets/gadgets/01-cursor-board.svg" alt="Future Gadget No.01 · Cursor Board" width="100%"></a>
-  <a href="https://github.com/AmadeusOfficial/excel-process"><img src="./assets/gadgets/02-excel-process.svg" alt="Future Gadget No.02 · Excel Process" width="100%"></a>
-  <a href="https://github.com/AmadeusOfficial/amadeus-blog"><img src="./assets/gadgets/03-amadeus-blog.svg" alt="Future Gadget No.03 · Amadeus Blog" width="100%"></a>
+  <a href="https://github.com/AmadeusOfficial/Mortis"><img src="./assets/gadgets/01-mortis.svg" alt="Future Gadget No.01 · Mortis" width="100%"></a>
+  <a href="https://github.com/AmadeusOfficial/cursor-board"><img src="./assets/gadgets/02-cursor-board.svg" alt="Future Gadget No.02 · Cursor Board" width="100%"></a>
+  <a href="https://github.com/AmadeusOfficial/excel-process"><img src="./assets/gadgets/03-excel-process.svg" alt="Future Gadget No.03 · Excel Process" width="100%"></a>
 </p>
 
 <div align="center">

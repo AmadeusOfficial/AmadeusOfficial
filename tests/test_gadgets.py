@@ -12,7 +12,7 @@ class GadgetCardTest(unittest.TestCase):
         self.assertTrue(svg.startswith("<svg"))
         self.assertIn(">01</text>", svg)
         self.assertIn("未来ガジェット 1号機", svg)
-        self.assertIn("Cursor Board", svg)
+        self.assertIn(gadgets.GADGETS[0]["name"], svg)
         self.assertIn(gadgets.GADGETS[0]["desc"], svg)
 
     def test_card_escapes_text(self):
